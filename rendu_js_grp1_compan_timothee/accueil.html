@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content=" IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <title>Fleuriste (Accueil)</title>
+</head>
+<body>
+    <header>
+        <div class="page">
+            <a href="accueil.html">Accueil</a>
+            <a href="plantes.html">Nos plantes</a>
+            <a href="histoire.html">Notre histoire</a>
+        </div>
+        <section>
+            <h1>Fleuriste</h1>
+            <div>
+                <p class="underTitle">Mettez de nouvelles couleurs dans vos vies !</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="imagePage1">
+            <div class="textImage">
+                <section>
+                    <h2>Notre magasin</h2>
+                </section>
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea beatae expedita molestiae laudantium ex? Sint perferendis omnis aut tempora rem, magni doloribus dicta eos repudiandae </p>
+                </div>
+            </div>
+            <div class="image">
+                <img class="imageFleuriste" src="img/fleuriste.jpg" alt="fleuriste" />
+                </div>
+            </div>
+        </div>
+        <div class="imagePage1-2">
+            <div class="image">
+                <img class="imageFleuriste" src="img/livraisonFleur.jpg" alt="livraisonFleur" />
+            </div>
+            <div class="textImage">
+                <section>
+                    <h2>livraison</h2>
+                </section>
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea beatae expedita molestiae laudantium ex? Sint perferendis omnis aut tempora rem, magni doloribus dicta eos repudiandae </p>
+                </div>
+            </div>
+        </div>
+        <h5>Les différentes couleurs </h5>
+        <div class="swiper mon-slider">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide"><img src="img/fleur_violet.jpg" alt="">
+                    <p class="swiper-title" >Violettes</p>
+                    <p class="subtitles">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                
+                </div>
+                <div class="swiper-slide"><img src="img/orchidee.jpg" alt="">
+                    <p class="swiper-title">Blanches</p>
+                    <p class="subtitles">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="swiper-slide"><img src="img/fleur_noire.jpg" alt="">
+                    <p class="swiper-title">Noires</p>
+                    <p id="subtitles-white">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+    
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        
+        
+            <h5>Méthodes d'arrosage</h5>
+        <ul>
+            <li class="tab1" class="tab-Plantes" class="tab-active">Plantes</li>
+            <li class="tab2" class="tab-Fleurs">Fleurs</li>
+            <li class="tab3" class="tab-Arbres">Arbres</li>
+        </ul>
+        <div class="content1" class="plantes" class="active"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. temporibus at sapiente? Voluptatum eos doloremque dolorem, aliquid non repudiandae tempora repellat mollitia incidunt possimus?</p></div>
+        <div class="content2" class="fleurs"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat accusamus iste quis quas accusantium itaque ducimus modi. Saepe rem, harum sed cupiditate sunt molestias accusantium maiores repellendus tenetur iusto consequatur.</p></div>
+        <div class="content3" class="Arbres"><p>Lorem ipsum dolor sit amet  Cumque at a praesentium perferendis tempora id harum dolorem, sapiente est vero alias quod debitis maiores veritatis expedita aspernatur perspiciatis possimus nulla.</p></div>
+    </main>
+    <footer>
+        <div class="footerTop">
+            <div class="footerLeft">
+                <div id="titleFooterLeft">
+                    <p>Nous contacter</p>
+                </div>
+                <div>
+                    <p>Vous souhaitez commander nos fleurs ?</p>
+                    <p>+33 6 44 33 22 11</p>
+                </div>
+            </div>
+            <div class="footerMiddle">
+               <section>
+                    <h3>Merci de votre visite !</h3>
+               </section>
+               <div>
+                    <p>Revenez vite !</p>
+               </div>
+            </div>
+            <div class="footerRight">
+                 <section>
+                    <h4>lorem</h4>
+                </section>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem excepturi explicabo quae nulla ut possimus culpa perferendis voluptates animi iure obcaecati quo dolore, inventore libero nostrum id earum quidem minima deserunt nobis facilis quas provident voluptas ad? Dignissimos aspernatur expedita unde modi quia saepe dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique eius laboriosam ipsam molestiae beatae illum nemo ipsa error iusto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div>
+                <p>Suivez nous sur:</p>
+            </div>
+            <nav>
+                <img class="imagesFooter" src="img/insta.avif" alt="instagramLogo">
+                <img class="imagesFooter" src="img/facebook.avif" alt="facebookLogo">
+                <img class="imagesFooter" src="img/x.webp" alt="xLogo">
+            </nav>
+            <button class="darkMode">Darkmode</button>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="darkMode.js"></script>
+    <script src="Tabs.js"></script>
+</body>
+</html>
+

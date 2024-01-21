@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(../img/fleur_rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.headerImage{
+    width: 100vw;
+    min-height: 20px;
+   
+    
+}
+
+
+.page{
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+
+    
+}
+
+.page a {
+    color: black;
+    font-size: 20px;
+    text-decoration: wavy;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+    border: thick double rgb(229, 179, 218);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+header a:hover{
+    background-color: rgb(229, 179, 218);
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.7s ease 0s;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-left: 650px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border: solid;
+    border-color: rgb(229, 179, 218);
+    border-radius: 40px;
+    width: 30vw;
+}
+
+
+h1{
+    
+    font-size: 70px;
+    margin-top: 60px;
+    color: black;
+    font-style: Gill Sans, sans-serif 
+}
+.underTitle{
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.imagesPage2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.imagesPage2 img {
+    width: 15vw;
+    height: 20vw;
+}
+
+
+.imageText{
+    flex-direction: column;
+}
+
+.image img{
+    border: solid;
+    
+}
+
+p{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: rgb(236, 212, 230);
+    margin-top: 150px;
+    height: 460px;
+}
+
+.footerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    margin-left: 60px;
+}
+
+#titleFooterLeft{
+    font-size: 30px;
+    text-decoration: overline;
+    margin-top: 20px;
+}
+
+.footerRight{
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.footerMiddle{
+    margin-top: 40px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.footerMiddle div{
+    font-size: 20px;
+}
+
+h4{
+    margin-left: 90px;
+    font-size: 40px;
+}
+
+.footerBottom {
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.footerBottom nav{
+    display: flex;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+.imagesFooter {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+
+}
+
+.footerRight {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px){/* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    p{
+        width: auto;
+        font-size: 70%;
+        height: 100px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    .title{
+        margin-left: 350px;
+        width: 350px;
+        height: 250px;
+    }
+
+    h2{
+        font-size: 90%;
+        margin-top: 8vh;
+        
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 90%;
+        margin-left: 75px;
+        
+    }
+    footer{
+        height: 70vh;
+    }
+    .footerLeft{
+        margin-top: 70px;
+    }
+    .footerBottom nav{
+        margin-top: -70px;
+    }
+    .footerRight{
+        width: 20vw;
+    }
+    .footerMiddle{
+        margin-top: 150px;
+    }
+}
+@media all and (max-device-width: 480px){/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+    p{
+        font-size: 50%;
+    }
+    .title{
+        margin-left: 100px;
+        width: 300px;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+
+    .paragraph{
+        height: 50px;
+        width:auto;
+    }
+
+    h2{
+        font-size: 90%;
+        margin-top: 3vh;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 90%;
+        margin-left: 20px;
+        
+    }
+    footer{
+        height: 70vh;
+    }
+    .footerLeft{
+        margin-top: 70px;
+    }
+    .footerBottom nav{
+        margin-top: -70px;
+    }
+    .footerRight{
+        width: 20vw;
+    }
+    #titleFooterLeft{
+        margin-top: 40px;
+    }
+}  
